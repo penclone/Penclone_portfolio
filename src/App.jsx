@@ -1,5 +1,5 @@
 
-const { useState, useEffect, useRef } = React;
+import { useState, useEffect, useRef } from 'react';
 
 const CALENDAR_URL = "https://calendar.app.google/DZDchYJaZj3jxv419";
 const WHATSAPP_URL = "https://wa.me/2349077911677?text=" + encodeURIComponent("Hi! I found your portfolio and I'd like to talk about a voice agent for my business.");
@@ -558,4 +558,4 @@ function App(){
   );
 }
 
-ReactDOM.createRoot(document.getElementById('root')).render(<App />);
+export default App;
